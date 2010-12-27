@@ -1,0 +1,23 @@
+REQUIREMENTS
+------------
+
+wxWindows 2.3.3 or higher.
+Your C++ compiler.
+
+COMPILATION
+-----------
+
+-Build the wxWindows library according to the instructions found with
+ that distribution.
+-Build the XML resource library (xrc) (in /contrib of the wxWindows 
+ distribution).
+-Test that things set up properly by compiling some of the wxWindows samples,
+ and building the XML resources sample (in /contrib/samples/xrc).
+-Optinally: open up /plucker_desktop/setup.h and flick compilation
+ switches as desired. Most important one is the one to say whether
+ want to use the styled text control or the normal text ctrl.
+-Run the makefile for plucker-desktop, or if neccessary, use the 
+ makefile.g95 for plucker-desktop and the makefiles that come in the
+ wxWindows examples to write the makefile for your compiler. 
+ Makefiles are already written for Linux, Cygwin, and 
+ 32-bit Borland C++ 5.5 + service pack 1

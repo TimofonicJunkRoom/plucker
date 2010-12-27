@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML><HEAD>
+<META http-equiv="Content-Style-Type" content="text/css"> 
+<STYLE type="text/css"> div.blue { color: rgb(0,0,255)}</STYLE> 
+<TITLE>Plucker Desktop in Microsoft VC6</TITLE></HEAD>
+<!-- First version authored by Tony McNamara, Sept 2002 -->
+<BODY>
+<H1>Plucker Desktop Development in Microsoft Visual C++ (VC++)</H1>
+<P>This helps set up the development environment for VC++. Version 6 is described here. Other versions are likely similar. Nothing tricky, just a few steps.</P>
+<H1>Requirements</H1>
+<UL><LI>(Installed) Microsoft Visual Studio/C++
+<LI>wxWindows 2.3.3 (or higher) library from <A HREF="http://www/wxwindows.org">wxWindows.org</A>. Download the installer that is available for Microsoft Windows.
+<LI>Plucker Desktop source, preferably a snapshot from the CVS.
+
+</UL>
+<H2>Step 1: Install wxWindows</H2>
+<P>This is a simple process of downloading and running the setup included in wxWindows.  
+You will have to reboot, because wxWindows header files make use of an environmental variable
+that isn't set until boot time.</P>
+<H2>Step 2: Build wxWindows</H2>
+<P>In the wxWindows <I>src</I> directory is a file <I>wxwindows.dsw</I>.  This is a standard
+Microsoft Workspace file (analogous to a makefile for other systems.)  Load it into VC++.
+<p>From the menu, select [Build][Set Active Configuration][wxWindows-Win32 Debug DLL], and press OK.
+<p>From the menu, select [Build][Build wxmsw24d.dll] (where wxmsw24d.dll is whatever the name of the 
+library is). The library will now build. This will take awhile.
+<H2>Step 3: Build WX-XRC</H2>
+<P>Plucker-Desktop uses the XML Resource Library, <I>XRC</i>, from the <I>src/contrib/xrc</I> subdirectory of
+wxWindows.  Open up the included VC++ Workspace <I>XRCVC.DSW</I> and similar to above step, select [Build][Set Active Configuration][XrcVC-Win32 Debug DLL], and press OK.
+<p>From the menu, select [Build][Build wxxrcd.dll] (where wxxrcd.dll is whatever the name of the 
+library is). The library will now build. This will take just a few minutes.
+<H2>Step 4: Build WX-STC</H2>
+<P>Plucker-Desktop uses the WX Styled Text Control Library, <I>STC</i>, from the <I>src/contrib/stc</I> subdirectory of
+wxWindows.  Open up the included VC++ Workspace <I>STCVC.DSW</I> and again, select [Build][Set Active Configuration][stcVC-Win32 Debug DLL], and press OK.
+<p>From the menu, select [Build][Build stcdll.dll] (where stcdll.dll is whatever the name of the 
+library is). The library will now build. This will take just a few minutes.
+
+<H2>Step 5: Configure Desktop Project</H2>
+<P>Open up the <i>plucker_desktop/PluckerDesktop.dsp</i> file and load it into MSVC++ by selecting "Open Workspace", changing the file type to "Projects *.dsp", and selecting <I>PluckerDesktop.dsp</I>.  If you don't have access to 
+the dsp file, create a new Project and insert all the Desktop source files from cvs into it.</P>
+
+<P><b>The PluckerDesktop.dsp VC++ project file already has these settings described below.  If you are using the supplied
+PluckerDesktop.dsp file, then update the settings in blue to match your directory structure and ignore the rest.</b></P>
+<P>(All of the following are set in the <I>Project - Settings</I> area).    </P>
+<TABLE BORDER>
+<TR><TH>Setting</TH><TH>Navigation</TH><TH>Value</TH></TR>
+<TR><TD>Resource</TD>           <TD>Resources tab</TD><TD><div class="blue">add the wxWindows include directory (e.g. <I>d:\dev\wx\include</I>) to the <I>Additional resource includes directories</I>.</div></TD></TR>
+<TR><TD>Include Directories</TD><TD>[Project][Settings][C/C++], <I>Preprocessor</I> tab</TD><td><div class="blue">add the
+wxWindows include directory <I>and</I> the Contrib/Include directory (e.g. <I>d:\dev\wx\include;d:\dev\wx\contrib\include</I>).</div></TD></TR>
+<TR><TD>MFC</TD><TD><I>General</I> tab</TD><TD>Set to <I>Not Using MFC</I></TD></TR>
+<TR><TD>Preprocessor Defines</TD><TD><I>C/C++</I> tab, <I>General</i> Category, <I>Preprocessor Definitions</I> editbox</TD><TD>Add <I>__WXMSW__,__WIN95__</I></TD></TR>
+<TR><TD>Code Generation</TD><TD><I>C/C++</I> tab, <I>Code Generation</I> category</TD><TD>Default values of Blend, CDecl calling, MultiThreaded DLL, and 8-byte alignment.</TD></TR>
+<TR><TD>Link Inclusions</TD><TD><I>Link</I> tab, <I>General</I> category</TD><td>The following are needed, mostly for wxWindows: <I>kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d:\dev\wx\lib\wxmswd.lib d:\dev\wx\lib\wxxrc.lib d:\dev\wx\lib\stc.lib comctl32.lib rpcrt4.lib wsock32.lib </I></TD></TR>
+<TR><TD>Link Exclusions</TD><TD><I>Link</I> tab, <I>Inputs</I> category, <I>Ignore</I> editbox</TD><td>For debug mode, "Ignore" the following:<I>libcd.lib,libcid.lib,msvcrt.lib,libc.lib</I></TD></TR>
+<TR><TD>Link Options</TD><TD><I>Link</I> tab, <I>Project Options</I> edit box</TD><td>Remove the <I>/GZ</I> if any.  This disables the MS-VC++ compiler stack checking functionality preventing <I>unresolved external __chkesp</I> messages.</TD></TR>
+<TR><TD>Project Type</TD><TD><I>Link</I> tab, <I>Project Options</I> edit box</TD><td>Change <I>/subsystem:console</I> to <i>/subsystem:windows</I> if necessary, allowing it to compile to a Windows app and see _main.</TD></TR>
+</TABLE>
+<P>Other current requirements <I>which may be obsolete</I> by now:</P>
+<UL><LI>In the wxWindows\Include tree, copy wx\include\wx\msw\setup.h to wx\include\wx.
+<LI>Ensure small_satillite_dish_icon.xpm exists in resource\icons_image_list
+</UL>    
+
+<p>Finally,  select [Build][Set Active Configuration][PluckerDesktop-Win32 Debug DLL], and press OK.
+<p>From the menu, select [Build][Build plucker-desktop.exe]
+
+<p>It will build, then yay, an executable will appear in the plucker_desktop/DebugDLL directory. You will need <i>msvcrtd.dll</i> and your wxwindows dll (like msmsw24d.dll) in the same dir as the .exe to run.
+
+
+<p>Now you are on to the somewhat annoying bit of making a msw installer. Copy the .exe that you want to package up from the subdir (plucker_desktop/DebugDLL/) back up to the plucker_desktop dir (plucker_desktop) and continue to the building of the installer.

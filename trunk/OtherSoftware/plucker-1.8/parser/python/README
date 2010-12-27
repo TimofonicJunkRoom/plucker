@@ -1,0 +1,32 @@
+This is a modified version of PyPlucker that doesn't require any installation.
+
+If you are on a Linux machine, download a packaged version
+from http://starship.python.net/~holly/PyPlucker/ . Packages for 
+RedHat (.rpm) and Debian (.deb) should be available.
+
+FEATURES:
+Image support on UNIX & Win machines.
+Handles >32K files by splitting them
+etc...
+
+INSTALATION:
+This package should be installed either in directory
+'lib/python1.5/site-packages/PyPlucker' or can be put in a directory
+named PyPlucker(Win machines).
+
+USAGE:
+hotsync & hotsync.cmd scripts are provided for convenience.
+
+PyPlucker/Spider.py --help
+
+Pluckerdir directory should contain home.html, external.html and error.html.
+In home.html are recognised following flags:
+<A HREF="..." NOIMAGES MAXDEPTH=n STAYONHOST STAYBELOW>
+
+If you want to use integration with Pyrite & Install conduit, use
+./plucker.py [-U username] [--pluckerdir <dir>] [--verbose NUM] 
+Pyrite conduit for Plucker.
+
+DECODING:
+It might be useful to be able to decode already existing PDB into an
+old cache directory, you can use the 'decode.py' script.

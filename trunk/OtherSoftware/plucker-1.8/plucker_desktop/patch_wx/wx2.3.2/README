@@ -1,0 +1,37 @@
+//----------------------------------------------------------------------------------------
+// Name:        README
+// Purpose:     The is a directory listing of files of a wx distribution that have been
+//              modified, along with where they should be installed, and what was 
+//              changed in them and why. [Note: eventually, these may be accepted into 
+//              the wx CVS and thus no longer distributed here]..
+// Author:      Robert O'Connor
+// Modified by:
+// Created:     2002/01/20
+// Copyright:   (c) Robert O'Connor ( rob@medicalmnemonics.com )
+// Licence:     GPL
+// RCS-ID:      $Id: README,v 1.1 2002/07/16 20:46:57 robertoconnor Exp $
+//----------------------------------------------------------------------------------------
+
+fileconf.cpp -- <your wx root dir>/src/common/fileconf.cpp
+
+[ Added style for not escaping characters (so DOS names wouldn't list as C:\\whatever in 
+key values) ]
+
+confbase.h   -- <your wx root dir>/include/wx/confbase.h
+[ Added style for not escaping characters (so DOS names wouldn't list as C:\\whatever in 
+key values) ]
+
+filedlgg.cpp --- <your wx root dir>/src/generic/filedlgg.cpp
+[ Removed the reading and writing to config of filenames, as the / in a section name
+crashes the parser ].
+
+datetime.cpp -- <your wx root dir>/src/common/datetime.cpp
+[ A CVS fix that was preventing parsing of leading zero dates]
+
+tbarbase.cpp -- <your wx root dir>/src/common/tbarbase.cpp
+[ A CVS fix to wipe the status bar on tool empty, not try to set the status text if there isn't one]
+
+listctrl.cpp -- <your wx root dir>/src/generic\listctrl.cpp
+[ Removal of minimum column width to allow drawing of zero-width columns in the showcase. ]
+[ This one is probably temporary, the showcase should load as a separate config object, like the main listctrl. ]
+

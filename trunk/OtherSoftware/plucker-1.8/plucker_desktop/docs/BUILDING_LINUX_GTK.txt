@@ -1,0 +1,143 @@
+REQUIREMENTS
+------------
+
+(a) wxWindows wxGTK version 2.3.3 or higher (www.wxwindows.org)
+(b) GCC
+
+CHOOSE WHAT YOU WANT TO DO
+--------------------------
+
+There are 3 sections:
+
+(I) I just want to build it for the first time, thanks
+(II) I want to learn how to then build a debug version instead
+(III) I want to learn how to build an optimized, smaller executable for distribution
+
+(I) I just want to build it for the first time, thanks
+------------------------------------------------------
+
+(1) If you have never previously installed wxWindows, skip ahead to step 2.
+    If you have previously installed wxWindows, you need to uninstall it.
+    This is required, as if a built wxWindows library is around, it will try to 
+    link it in dynamically, instead of statically.
+    Different uninstall whether you installed from source or an rpm:
+    (a) If you installed from source:
+        cd to your wxGTK top level directory
+        Login as superuser:
+        >>>su 
+        Enter your superuser password
+        >>>*******
+        Uninstall it:
+        >>>make uninstall
+        Exit superuser
+        >>>exit                
+        Probably better to get rid of the wx object files too, so that when turn off 
+        features of the library, they are actually smaller:
+        >>>make clean
+    (b) If you installed from an rpm:
+        Login as superuser:
+        >>>su 
+        Enter your superuser password
+        >>>*******
+        Erase the rpms:
+        >>>rpm --erase --nodeps wxGTK-devel
+        >>>rpm --erase --nodeps wxGTK-gl
+        >>>rpm --erase --nodeps wxGTK
+        Exit superuser
+        >>>exit
+
+(2) Download and unzip wxWindows, and run Configure for wxWindows.
+    We turn off shared libraries and not wan to have a libpng dependency so we use:
+        >>>./configure --disable-shared --without-libpng
+
+(3) Make wxWindows:
+        >>>make        
+
+(4) Install wxWindows
+        Login as superuser:
+        >>>su 
+        Enter your superuser password:
+        >>>*******
+        Install it:
+        >>>make install
+        Perhaps configure the dynamic linker runtime bindings (don't know if this is 
+        needed for a static linking though).
+        >>>ldconfig
+        Exit superuser
+        >>>exit
+
+(5) Make the XRC (wxXmlResource) library:
+        From the current wxGTK directory change to the xrc:
+        >>>cd contrib/src/xrc
+        Make the xrc library:
+        >> make 
+        Note: the main configure made a XRC makefile already, so I am 
+        almost positive everything is configured properly.
+
+(6) Install the XRC library:
+        Login as superuser:
+        >>>su 
+        Enter your superuser password
+        >>>make install
+        Perhaps configure the dynamic linker runtime bindings (don't know if this is 
+        needed for a static linking though)
+        >>>ldconfig
+        Exit superuser
+        >>>exit
+
+(7) Make and install the STC (wxStyledTextCtrl) library:
+        Repeat steps (5) and (6) but use
+        /contrib/src/stc
+        instead of
+        /contrib/src/xrc      
+
+(8) Build plucker desktop.
+
+(8A) Download the plucker sourcecode from CVS (or as a snapshot and unzip
+    it somewhere).
+(8B) cd to the *main* plucker directory (not the plucker_desktop subdirectory)
+(8C) >>>sh autogen.sh
+(8D) Some autodetection scripts will scroll by and plucker will configure itself for your Linux box. The configure script will likely quit when it gets to the viewer, if you may not have all the Palm SDKs, but that doesn't matter, if you aren't going to build the viewer anyways.
+(8E) >>>cd plucker_desktop 
+(8F) >>>make
+(8G) Login as superuser and enter your superuser password.
+(8H) >>>make install
+(8I) Be sure you are logged out as root and back to your normal user 
+    (so that you will have a .pluckerrc), and give plucker-desktop a 
+    test run by typing:
+    >>>plucker-desktop
+                        
+(II) I want to learn how to then build a debug version instead
+--------------------------------------------------------------
+
+To make a version of the program with debugging messages sent:
+Do all steps as the normal build described in (I) above, except on the wxWindows 
+./configure step type:
+    ./configure --enable-debug --disable-shared 
+If you are using GDB, can try out --enable-debug_gdb in addition, to give more GDB info.
+
+That will turn on the debug flags and send debugging info.
+Now when the program is built, and you go to the console and type plucker-desktop,
+you can watch all the wxLogDebug(""); messages in the console window of the window that you
+typed "plucker-desktop".
+
+Also any Asserts from wxWindows will alert to something amiss in the program. 
+In debug, expect an unstripped executable of about 11 megs, stripped executable of about 
+3.5 megs. If you used --enable-debug_gdb, expect an executable of about 50 megs.
+
+(III) I want to learn how to build an optimized, smaller executable for distribution
+------------------------------------------------------------------------------------
+
+(1) Do all the steps as the normal build, described in (I) above, except
+    
+When you are making the wxWindows library, turn off some unused features when 
+    you run configure. There is a list of things you can remove, in the file
+    BUILDING_REMOVABLE_WXWINDOWS_ITEMS.txt 
+    For example, your commandline would be:
+	   >>>./configure --disable-shared --without-libtiff --without-libpng 
+               --disable-joystick --disable-docview --disable-mdi 
+               --disable-treelayout --disable-printarch --disable-pcx --disable-pnm
+
+(2) Run strip on plucker-desktop to make the executable smaller 
+            >>>strip plucker-desktop   
+                        
