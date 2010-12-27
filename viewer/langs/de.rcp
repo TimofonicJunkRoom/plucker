@@ -1,0 +1,963 @@
+/* $Id: de.rcp,v 1.152 2004/03/07 05:29:08 prussar Exp $ */
+
+/*************************************************************
+ * German resources - Alexander Wagner <A.Wagner@Bigfoot.de> *
+ *                  - Dirk Heiser <plucker@Dirk-Heiser.de>   *
+ *************************************************************/
+
+TRANSLATION "de"
+BEGIN
+
+
+"$$LANG"                    =   "de"
+
+
+/*************************************************************
+ *                      MENU OPTIONS                         *
+ *************************************************************/
+
+"$$ABOUT PLUCKER"           =   "Über Plucker..."
+"$$ADD BOOKMARK..."         =   "Neues Lesezeichen..."
+"$$BACK"                    =   "Rückwärts"
+"$$BOOKMARKS..."            =   "Lesezeichen..."
+"$$BOTTOM"                  =   "Seitenende"
+"$$CONTACT DEVELOPERS"      =   "Entwicklerkontakt..."
+"$$DELETE ALL..."           =   "Alle löschen"
+/*************************************************************/
+"$$DELETE READ..."          =   "Delete read documents..."
+/*************************************************************/
+"$$DETAILS..."              =   "Details..."
+"$$FIND AGAIN"              =   "Weitersuchen"
+"$$FIND..."                 =   "Suchen..."
+"$$FORWARD"                 =   "Vorwärts"
+"$$GO"                      =   "Nav."
+"$$HOME"                    =   "Home"
+"$$LIBRARY..."              =   "Dokumente..."
+"$$OPTIONS"                 =   "Optionen"
+"$$PREFERENCES..."          =   "Einstellungen..."
+"$$TOP"                     =   "Seitenanfang"
+"$$VIEW"                    =   "Ansicht"
+"$$AUTOSCROLL FASTER"       =   "Auto B. schneller"
+"$$AUTOSCROLL SLOWER"       =   "Auto B. langsamer"
+"$$START AUTOSCROLL"        =   "Auto-Bildlauf Start"
+"$$STOP AUTOSCROLL"         =   "Auto-Bildlauf Stop"
+"$$DELETE DOC..."           =   "Dokument löschen..."
+/************************************************************/
+"$$COPY TO MEMO"            =   "Export to Memo"
+"$$SELECT FONT..."          =   "Font and layout..."
+"$$SYNC LIST"               =   "Update document list"
+"$$SHOWHIDE"                =   "Show/Hide"
+"$$TYPE"                    =   "Type"
+"$$DATE"                    =   "Date"
+"$$SIZE"                    =   "Size"
+"$$TOGGLE FULLSCREEN"       =   "Toggle fullscreen"
+"$$SET KEYBOARD/GRAFFITI..."   =   "Set keyboard/graffiti..."
+/************************************************************/
+
+
+/*************************************************************
+ *                        SHORTCUTS                          *
+ *************************************************************/
+
+"$$SC ADD BOOKMARK"         =   "+"
+"$$SC START AUTOSCROLL"     =   "-"
+"$$SC AUTOSCROLL SLOWER"    =   "<"
+"$$SC AUTOSCROLL FASTER"    =   ">"
+"$$SC TOP"                  =   "A"
+"$$SC COPY TO MEMO"         =   "C"
+"$$SC LIBRARY"              =   "D"
+"$$SC BOTTOM"               =   "E"
+"$$SC HOME"                 =   "H"
+"$$SC DETAILS"              =   "I"
+"$$SC BOOKMARKS"            =   "K"
+"$$SC DELETE ALL"           =   "L"
+"$$SC DELETE DOC"           =   "L"
+"$$SC PREFERENCES"          =   "N"
+"$$SC SELECT FONT"          =   "O"
+"$$SC LOOKUP WORD"          =   "Q"
+"$$SC BACK"                 =   "R"
+"$$SC FIND"                 =   "S"
+"$$SC TOGGLE FULLSCREEN"    =   "T"
+"$$SC SYNC LIST"            =   "U"
+"$$SC FORWARD"              =   "V"
+"$$SC FIND AGAIN"           =   "W"
+"$$SC SET KEYBOARD/GRAFFITI"   =   "X"
+"$$SC STOP AUTOSCROLL"      =   "^"
+
+
+/*************************************************************
+ *                         FORMS                             *
+ *************************************************************/
+
+/*** MAIN ***/
+
+"$$MAIN: ADD BOOKMARK"              =   "Neues Lesezeichen"
+"$$MAIN: BOTTOM"                    =   "Ende"
+"$$MAIN: FOLLOW LINK"               =   "Link folgen"
+"$$MAIN: OPEN IMAGE"                =   "Bild anzeigen"
+"$$MAIN: TOP"                       =   "Anfang"
+"$$MAIN: VIEW BOOKMARKS"            =   "Lesezeichen"
+"$$MAIN: 10%"                       =   "10%"
+"$$MAIN: 20%"                       =   "20%"
+"$$MAIN: 30%"                       =   "30%"
+"$$MAIN: 40%"                       =   "40%"
+"$$MAIN: 50%"                       =   "50%"
+"$$MAIN: 60%"                       =   "60%"
+"$$MAIN: 70%"                       =   "70%"
+"$$MAIN: 80%"                       =   "80%"
+"$$MAIN: 90%"                       =   "90%"
+
+
+/*** ABOUT ***/
+
+"$$ABOUT: BODY1"                    =   "Plucker ist eine Programmsammlung"
+"$$ABOUT: BODY2"                    =   "welche einen offline Web-Browser für"
+"$$ABOUT: BODY3"                    =   "PalmOS Systeme darstellt."
+"$$ABOUT: BODY4"                    =   "Plucker ist Freie Software gemäß den"
+"$$ABOUT: BODY5"                    =   "Bestimmungen der Free Software"
+"$$ABOUT: BODY6"                    =   "Foundation."
+"$$ABOUT: WEBSITE"                  =   "www.plkr.org"
+"$$ABOUT: OK"                       =   "OK"
+"$$ABOUT: TITLE"                    =   "Über Plucker..."
+
+
+/*** DOCUMENT LIBRARY ***/
+
+"$$LIBRARY: BEAM"                   =   "Übertragen"
+"$$LIBRARY: CATEGORIZE"             =   "Kategorisieren"
+"$$LIBRARY: CATEGORY"               =   "Kategorien"
+"$$LIBRARY: DATE"                   =   "Datum"
+"$$LIBRARY: DELETE"                 =   "Löschen"
+"$$LIBRARY: NAME"                   =   "Name"
+"$$LIBRARY: OPEN"                   =   "Öffnen"
+"$$LIBRARY: RENAME"                 =   "Umbenennen"
+"$$LIBRARY: SHOW:"                  =   "Zeige:"
+"$$LIBRARY: SIZE"                   =   "Größe"
+"$$LIBRARY: TITLE"                  =   "Dokumente"
+"$$LIBRARY: NO DOCUMENTS"           =   "Keine Dokumente gefunden."
+/*************************************************************/
+"$$LIBRARY: UNREAD"                 =   "Unread"
+/*************************************************************/
+"$$LIBRARY: HELP"                   =
+    "• Da es mit Plucker möglich ist, mehrere Dokumente auf dem Gerät vorzuhalten "\
+    "können Sie diese hiermit verwalten. Wählen Sie einfach das Dokument aus, das "\
+    "benutzt werden soll."\
+    "\n\n"\
+    "• Beim antippen des Dokumentsymbols öffnet sich eine Liste mit verschiedenen "\
+    "Operationen für das betreffende Dokument wie z.B. Öffnen, Kategorisieren oder "\
+    "Umbenennen."\
+    "\n\n"\
+    "• Sie können die Dokumente entsprechend ihres Namens, ihres Datums oder ihrer "\
+    "Größe sortieren lassen, in aufsteigender oder absteigender Reihenfolge."
+
+
+/*** RENAME DOCUMENT ***/
+
+"$$RENAME: CANCEL"                  =   "Abbruch"
+"$$RENAME: NAME:"                   =   "Neuer Name:"
+"$$RENAME: RENAME"                  =   "Umbenennen"
+"$$RENAME: TITLE"                   =   "Umbenennen"
+
+
+/*** PREFERENCES ***/
+
+"$$PREFS: TITLE"                    =   "Einstellungen"
+"$$PREFS: OK"                       =   "OK"
+"$$PREFS: CANCEL"                   =   "Abbruch"
+"$$PREFS: LIBRARY"                  =   "Dokumente"
+"$$PREFS: AUTOSCROLL"               =   "Auto-Bildlauf"
+"$$PREFS: BUTTON"                   =   "Tasten"
+"$$PREFS: CONTROL"                  =   "Tap"
+"$$PREFS: GESTURE"                  =   "Graffiti"
+/****************************************************************************/
+"$$PREFS: GENERAL"                  =   "General"
+"$$PREFS: BROWSING"                 =   "Browsing"
+"$$PREFS: HARDCOPY"                 =   "Export"
+"$$PREFS: JOGDIAL"                  =   "JogDial"
+"$$PREFS: LOOKUP"                   =   "Lookup"
+/****************************************************************************/
+
+
+/*** GENERAL PREFERENCES ***/
+
+"$$PREFSGENERAL: ADD BOOKMARK..."          =   "Neues Lesezeichen..."
+"$$PREFSGENERAL: BOTTOM TOOLBAR"           =   "Seitenende"
+"$$PREFSGENERAL: BOTTOM"                   =   "Seitenende"
+"$$PREFSGENERAL: BUTTON ACTION..."         =   "Tasten-Aktionen..."
+"$$PREFSGENERAL: COMMAND BUTTON:"          =   "Befehlsleisten Schaltfläche:"
+"$$PREFSGENERAL: DETAILS..."               =   "Details..."
+"$$PREFSGENERAL: LEFT"                     =   "Links"
+"$$PREFSGENERAL: NO TOOLBAR"               =   "Keine"
+"$$PREFSGENERAL: NONE"                     =   "Keine"
+"$$PREFSGENERAL: NONE"                     =   "Keine"
+"$$PREFSGENERAL: PREFERENCES..."           =   "Einstellungen..."
+"$$PREFSGENERAL: RIGHT"                    =   "Rechts"
+"$$PREFSGENERAL: SCREEN DEPTH:"            =   "Farbtiefe:"
+"$$PREFSGENERAL: SCROLLBAR:"               =   "Bildlaufleiste:"
+"$$PREFSGENERAL: TAP ACTION..."            =   "Tap-Aktionen..."
+"$$PREFSGENERAL: TOP TOOLBAR"              =   "Seitenanfang"
+"$$PREFSGENERAL: TOP"                      =   "Seitenanfang"
+/************************************************************/
+"$$PREFSGENERAL: COPY TO MEMO"             =   "Export to Memo"
+"$$PREFSGENERAL: DELETE DOC..."            =   "Delete Doc..."
+"$$PREFSGENERAL: SILK TOOLBAR"             =   "In silk"
+"$$PREFSGENERAL: TOOLBAR:"                 =   "Toolbar:"
+/************************************************************/
+"$$PREFSGENERAL: HELP"                     =
+    "• Auf einem Gerät mit Palm OS 3.5 (oder höher) können Sie eine extra "\
+    "'Befehlsleisten Schaltfläche' für die Befehlsleiste wählen. Auf anderen Versionen "\
+    "hat dies keinen Effekt."\
+    "\n\n"\
+    "• Mit 'Farbtiefe' setzen Sie die Standardfarbtiefe die benutzt werden soll."\
+    "\n\n"\
+/******************************************************************/
+    "• You can have the toolbar at the top or bottom of the screen, or no toolbar at all."\
+/******************************************************************/
+    "\n\n"\
+    "• Unter 'Bildlaufleiste' wählen Sie ob Sie eine linke oder eine rechte "\
+    "Bildlaufleiste oder keine angezeigt werden soll."
+
+
+/*** BROWSING PREFERENCES ***/
+
+"$$PREFSBROWSING: STRIKE-THROUGH"          =   "Durchstreichen"
+"$$PREFSBROWSING: UNDERLINE"               =   "Unterstreichen"
+/***************************************************************************/
+"$$PREFSBROWSING: ALIGNMENT:"              =   "Alignment"
+"$$PREFSBROWSING: AS IN DOC"               =   "As in document"
+"$$PREFSBROWSING: FORCE LEFT"              =   "Force left"
+"$$PREFSBROWSING: FORCE RIGHT"             =   "Force right"
+"$$PREFSBROWSING: FORCE CENTER"            =   "Force center"
+"$$PREFSBROWSING: FORCE JUSTIFY"           =   "Force justify"
+"$$PREFSBROWSING: FORCE DEFAULT TEXT COLORS" =  "Force default text colors"
+"$$PREFSBROWSING: ENABLE SOFT-HYPHENS"     =   "Enable soft-hyphens"
+"$$PREFSBROWSING: CONNECT PARTS WITH PAGING"
+                                           =   "Connect parts with paging"
+/****************************************************************************/
+"$$PREFSBROWSING: HELP"                    =
+    "• Wenn Sie meinen, daß die unterstrichelten Linien, welche standardmäßig für "\
+    "besuchte Links benutzt werden, schwierig zu erkennen sind, können Sie "\
+    "'Durchstreichen' aktivieren. Besuchte Links werden dann zusätzlich durchgestrichen "\
+    "dargestellt."\
+    "\n\n"\
+    "• Durch aktivieren der 'Unterstreichen' Option werden Links mit einer gepunkteten "\
+    "Linie angezeigt. Die durchgezogene Linie wird für Unterstreichungen benutzt. "\
+    "Bereits besuchte Links können durch einschalten der 'Durchstreichen' Option "\
+    "angezeigt werden."\
+    "\n\n"\
+/***************************************************************************/
+    "• You can connect multipart documents with the paging "\
+    "controls so that using a page-down (or half-page-down) "\
+    "control on the last screen of a page will take you to "\
+    "the last displayed link, and similarly for using a page-up or "\
+    "half-page-up control on the first screen."\
+    "\n\n"\
+    "• You can force text to be black and links to be blue."\
+    "\n\n"\
+    "• You can override the document's alignment settings."
+/***************************************************************************/
+
+
+/*** LIBRARY PREFERENCES ***/
+
+/******************************************************************/
+"$$PREFSLIBRARY: UPDATE DOCLIST"           =   "Update list:"
+"$$PREFSLIBRARY: AUTOMATIC"                =   "Automatic"
+"$$PREFSLIBRARY: MANUAL"                   =   "Manual"
+"$$PREFSLIBRARY: IGNORE CARD"              =   "Ignore card"
+"$$PREFSLIBRARY: ADVANCED"                 =   "Advanced"
+"$$PREFSLIBRARY: ASCENDING"                =   "Ascending"
+"$$PREFSLIBRARY: CATEGORY STYLE:"          =   "Category Style:"
+"$$PREFSLIBRARY: CLASSIC"                  =   "Classic"
+"$$PREFSLIBRARY: DATE"                     =   "Date"
+"$$PREFSLIBRARY: DATE/TIME"                =   "Use date/time for sort by date"
+"$$PREFSLIBRARY: DESCENDING"               =   "Descending"
+"$$PREFSLIBRARY: NAME"                     =   "Name"
+"$$PREFSLIBRARY: SHOW DATE COLUMN"         =   "Show Date Column"
+"$$PREFSLIBRARY: SHOW SIZE COLUMN"         =   "Show Size Column"
+"$$PREFSLIBRARY: SHOW TYPE COLUMN"         =   "Show Type Column"
+"$$PREFSLIBRARY: SIZE"                     =   "Size"
+"$$PREFSLIBRARY: SORT BY:"                 =   "Sort Documents By:"
+"$$PREFSLIBRARY: SORT ORDER:"              =   "Sort Order:"
+"$$PREFSLIBRARY: TYPE"                     =   "Type"
+"$$PREFSLIBRARY: INDICATE OPENED"          =   "Enable Strike-through"
+"$$PREFSLIBRARY: HELP"                     =
+    "• Because it can be a slow process to update the list of documents on "\
+    "some devices there is an option to select whether the list should be "\
+    "automatically updated (both RAM and external cards), automatically "\
+    "updated (only RAM), or manually updated."\
+    "\n\n"\
+/******************************************************************/
+    "• Sie können die Dokumente entsprechend ihres Namens, ihres Datums oder ihrer "\
+    "Größe sortieren lassen, in aufsteigender oder absteigender Reihenfolge."\
+/*************************************************************/
+    "\n\n"\
+    "• It is possible to select whether the sort by date should use only the "\
+    "date or if it should use both date and time (faster, but could make the "\
+    "list look 'unsorted')."
+/*************************************************************/
+
+
+/*** AUTOSCROLL PREFERENCES ***/
+
+"$$PREFSAUTOSCROLL: AUTOSCROLL DELAY:"       =   "Verzögerung:"
+"$$PREFSAUTOSCROLL: AUTOSCROLL DIRECTION:"   =   "Richtung:"
+"$$PREFSAUTOSCROLL: AUTOSCROLL JUMP:"        =   "Sprungweite:"
+"$$PREFSAUTOSCROLL: DOWN"                    =   "Nach unten"
+"$$PREFSAUTOSCROLL: MILLISECONDS"            =   "Millisekunden"
+"$$PREFSAUTOSCROLL: PAGE(S)"                 =   "Seite(n)"
+"$$PREFSAUTOSCROLL: PIXEL(S)"                =   "Punkt(e)"
+"$$PREFSAUTOSCROLL: STAY ON"                 =   "Bei Auto-Bildlauf kein Auto-Aus"
+"$$PREFSAUTOSCROLL: UP"                      =   "Nach oben"
+"$$PREFSAUTOSCROLL: HELP"                    =
+    "• In diesem Dialog können Sie das verhalten des Auto-Bildlauf festlegen."\
+    "\n\n"\
+    "• Mit der 'Sprungweite' legen Sie fest um wieviel Punkte oder Seiten gescrollt "\
+    "wird."\
+    "\n\n"\
+    "• Mit der 'Richtung' legen Sie fest ob nach Oben oder Unten gescrollt wird."\
+    "\n\n"\
+    "• Mit der 'Verzögerung' legen Sie die Zeit fest die zwischen den Scrollen um die "\
+    "'Sprungweite' vergeht."\
+    "\n\n"\
+    "• Wenn Sie 'Bei Auto-Bildlauf kein Auto-Aus' wählen schaltet sich das Gerät währen "\
+    "des Auto-Bildlaufes nicht automatisch aus."\
+    "\n\n"\
+/******************************************************************/
+    "• Note that while autoscrolling is happening, you can control "\
+    "the speed with buttons on the toolbar as well as with all the controls "\
+    "(such as Page Up/Down keys) that normally are used to scroll by "\
+    "a screen or half a screen."
+/******************************************************************/
+
+
+
+/*** HARDCOPYPREFS ***/
+
+/******************************************************************/
+"$$PREFSHARDCOPY: TITLE"            =   "Hardcopy Actions"
+"$$PREFSHARDCOPY: ACTION:"          =   "Action:"
+"$$PREFSHARDCOPY: DIALOG"           =   "Dialog"
+"$$PREFSHARDCOPY: IMMEDIATE"        =   "Immediate"
+"$$PREFSHARDCOPY: RANGE:"           =   "Range:"
+"$$PREFSHARDCOPY: IN VIEW AREA"     =   "In view area"
+"$$PREFSHARDCOPY: VISIBLE PARAGRAPHS" = "Visible paragraphs"
+"$$PREFSHARDCOPY: LINK:"            =   "Link:"
+"$$PREFSHARDCOPY: BOTTOM"           =   "Bottom"
+"$$PREFSHARDCOPY: INLINE"           =   "Inline"
+"$$PREFSHARDCOPY: NONE"             =   "None"
+"$$PREFSHARDCOPY: HELP"             =
+    "• You can choose the action of 'export to memo' feature in this form. This feature enables you to clip, edit, and export text in the current view area to Palm's standard memopad."\
+    "\n\n"\
+    "• Clipped text can be edited in dialog, or be copied immediately to memopad."\
+    "\n\n"\
+    "• Text in the current viewarea or in the visible paragraphs is clipped."\
+    "\n\n"\
+    "• URLs of the links are listed at the bottom, indicated inline, or simply ignored."
+/******************************************************************/
+
+
+/*** EXTERNALLINK PREFERENCES ***/
+
+/*************************************************************/
+"$$PREFSEXTERNALLINK: TITLE"            =   "External Link Handling"
+"$$PREFSEXTERNALLINK: ACTION:"          =   "Action:"
+"$$PREFSEXTERNALLINK: DIALOG"           =   "Dialog"
+"$$PREFSEXTERNALLINK: TO MEMO"          =   "Directly to memopad"
+"$$PREFSEXTERNALLINK: BROWSE"           =   "Browse"
+/*************************************************************/
+
+
+/*** BUTTON PREFERENCES ***/
+
+"$$PREFSBUTTONS: HARD KEYS"              =   "Navigation mit Tasten"
+/******************************************************************/
+"$$PREFSBUTTONS: ARROW KEYS"             =   "Activate custom arrow keys"
+/******************************************************************/
+"$$PREFSBUTTONS: HELP"                   =
+    "• Nach aktivieren der 'Navigation mit Tasten' Option können sie die Tasten "\
+    "benutzen um die gewählten Aktionen auszuführen."\
+    "\n\n"\
+    "• Sie können verschiedene Aktionen für jede der vier Tasten festlegen."
+
+
+/*** CONTROL PREFERENCES ***/
+
+"$$PREFSTAP: MODE 1"                     =   "Modus 1"
+"$$PREFSTAP: MODE 2"                     =   "Modus 2"
+"$$PREFSTAP: MODE 3"                     =   "Modus 3"
+"$$PREFSTAP: PEN SCROLL MSG1"            =   "Bildschirm antippen"
+"$$PREFSTAP: PEN SCROLL MSG2"            =   "und Stift ziehen um"
+"$$PREFSTAP: PEN SCROLL MSG3"            =   "zu scrollen."
+"$$PREFSTAP: PEN SCROLL MSG4"            =   ""
+"$$PREFSTAP: REGION ACTION:"             =   "Bereiche:"
+"$$PREFSTAP: HELP"                       =
+    "• Tap-Aktionen erlauben es das Verhalten beim Antippen des Bildschirms zu "\
+    "definieren. Sie können in drei Modi benutzt werden."\
+    "\n\n"\
+    "• Die ersten beiden teilen den Bildschirm in verschiedene Bereiche, denen man eine "\
+    "Aktion zuordnen kann (z.B. Scollen, Weiter, Zurück etc.)."\
+    "\n\n"\
+    "• Der dritte Modus macht es möglich durch ziehen des Stifts über den Schirm zu "\
+    "scrollen."
+
+
+/*** GESTURE PREFERENCES ***/
+
+"$$PREFSGESTURES: USE GESTURES"          =   "Navigation mit Graffiti"
+"$$PREFSGESTURES: HELP"                  =
+    "• Nach aktivieren der 'Navigation mit Graffiti' Option können Sie Graffiti "\
+    "Schriftzüge benutzen um die gewählten Aktionen auszuführen."\
+    "\n\n"\
+    "• Es gibt fünf Schriftzüge: Strich nach rechts, links, hoch, runter und "\
+    "antippen der Graffiti Schreibfläche."\
+    "\n\n"\
+    "• Sie können jedem der fünf Schriftzüge eine andere Aktion zuweisen."
+
+
+/*** JOGDIAL PREFERENCES ***/
+
+/******************************************************************/
+"$$PREFSJOGDIAL: USE JOGDIALS"  =     "Enable JogDial for navigation"
+"$$PREFSJOGDIAL: HELP"  =
+    " If you own a palm that has a JogDial, you can assign different " \
+    "actions to perform specific funtions in Plucker."\
+    "\n\n"\
+    " There are six actions: scroll up, scroll down, push in, push in and " \
+    "up, push in and down and back. Not all actions may be available, "\
+    "depending on your device."\
+    "\n\n"\
+    " You can select different events for each of the five JogDial actions."
+/******************************************************************/
+
+
+/*** WORD LOOKUP PREFERENCES ***/
+
+/*************************************************************/
+"$$PREFSLOOKUP: ALWAYS ACTIVE"         = "Word lookup always active"
+"$$PREFSLOOKUP: ACTION:"               = "Action:"
+"$$PREFSLOOKUP: SEARCH FORM"           = "Insert into search form"
+"$$PREFSLOOKUP: PPI"                   = "Look up in PPI"
+"$$PREFSLOOKUP: TO CLIPBOARD"          = "Copy to the clipboard"
+"$$PREFSLOOKUP: HELP"                  =
+    "• Plucker has a word-lookup function.  When the function is active, "\
+    "tapping on a word selects that word and performs an action. "\
+    "\n\n"\
+    "• If word lookup is set to be always active, then tapping on a word "\
+    "not inside a link always selects a word."\
+    "\n\n"\
+    "• Otherwise, you can use the 'Lookup word' function in the 'Go' menu "\
+    "to turn on a temporary tap-selection mode for the next tap.  That "\
+    "function can also be assigned to a hard key or any other "\
+    "configurable control."\
+    "\n\n"\
+    "• Hint: To select a word that contains a non-alphanumeric character such "\
+    "as an apostrophe or a dash, tap on that character when selecting and all "\
+    "instances of that character will be treated as letters."
+/*************************************************************/
+
+
+/*** FONT SELECT ***/
+
+/*************************************************************/
+"$$FONTS: ROTATE:"                  =   "Rotation: "
+"$$FONTS: NONE"                     =   "None"
+"$$FONTS: COUNTERCLOCKWISE"         =   "Counterclockwise"
+"$$FONTS: CLOCKWISE"                =   "Clockwise"
+"$$FONTS: FONT:"                    =   "Font:"
+"$$FONTS: SELECT FONT"              =   "Select font and layout"
+"$$FONTS: OK"                       =   "OK"
+"$$FONTS: CANCEL"                   =   "Cancel"
+"$$FONTS: BUILT-IN FONTS:"          =   "Built-in fonts:"
+"$$FONTS: USER-LOADED FONT:"        =   "User-loaded font:"
+"$$FONTS: LINE SPACING:"            =   "Line spacing:"
+"$$FONTS: PARAGRAPH SPACING:"       =   "Paragraph spacing:"
+"$$FONTS: VARY WITH DOCUMENT"       =   "Vary with document"
+"$$FONTS: ALSO SET AS DEFAULT"      =   "Also set as default"
+"$$FONTS: HELP"                     =
+    "• You can select one of the standard Palm fonts or one "\
+    "of the built-in Plucker fonts."\
+    "\n\n"\
+    "• If you have a Plucker font package loaded, you can select "\
+    "that, instead, if this is supported on your device."\
+    "\n\n"\
+    "• You can vary line- and paragraph-spacing in the document. "\
+    "Setting the line-spacing to a negative value may cause some "\
+    "minor visual defects such as lines not showing up."\
+    "\n\n"\
+    "• You can rotate the display by 90 degrees.  On OS 3.5, images"\
+    "will be omitted."\
+    "\n\n"\
+    "• You can allow the font settings to vary between documents "\
+    "and if you do that, you will also have the option to make the "\
+    "current settings be the default ones for new documents."
+/*************************************************************/
+
+/*** KEYBOARD CUSTOMIZATION ***/
+
+/****************************************************************************/
+"$$KEYBOARD: SET KEYBOARD / GRAFFITI"        =   "Set keyboard / graffiti"
+"$$KEYBOARD: KEYBOARD OR GRAFFITI"         =   "Keyboard or graffiti"
+"$$KEYBOARD: SPECIAL KEYS"          =   "Special keys"
+"$$KEYBOARD: OK"                    =   "OK"
+"$$KEYBOARD: CANCEL"                =   "Cancel"
+"$$KEYBOARD: DEFAULT"               =   "Default"
+"$$KEYBOARD: CLEAR"                 =   "Clear"
+"$$KEYBOARD: INTERFERENCE MSG1"     =   "Some settings can be incompatible"
+"$$KEYBOARD: INTERFERENCE MSG2"     =   "with gestures and/or Graffiti 2."
+"$$KEYBOARD: HELP"                  =
+    "• If you have a keyboard, you can control Plucker with it. "\
+    "You can also control Plucker by using Graffiti to write "\
+    "down certain characters."\
+    "\n\n"\
+    "• Printable characters such as 'a' or '$' can be typed in or "\
+    "drawn with Graffiti strokes directly into the customization form "\
+    "and then you can select the appropriate behavior."\
+    "\n\n"\
+    "• Special keys like 'Return' or arrow keys need to be "\
+    "selected from the drop down list, and then you can select the "\
+    "appropriate actions."\
+    "\n\n"\
+    "• Some characters/keys will not work if you have Graffiti "\
+    "gestures activated in the Plucker preferences.  In particular, "\
+    "the i, I, 1, l, L, period and backspace keys/characters and "\
+    "some shifted Graffiti characters "\
+    "will not be available unless you have gestures disabled."\
+    "\n\n"\
+    "• Some characters are incompatible with Graffiti 2 input.  If "\
+    "you wish to control Plucker with Graffiti 2 input through this "\
+    "customization option, do not assign "\
+    "actions to multistroke characters.  Also, entering a Graffiti 2 "\
+    "multistroke character into Plucker while an action is assigned "\
+    "to the l, space, single quote, minus or backspace characters "\
+    "will lead to unexpected results."
+
+"$$KEY: RETURN"                     =   "Return"
+"$$KEY: TAB"                        =   "Tab"
+"$$KEY: UP"                         =   "Up"
+"$$KEY: DOWN"                       =   "Down"
+"$$KEY: LEFT"                       =   "Left"
+"$$KEY: RIGHT"                      =   "Right"
+"$$KEY: BACKSPACE"                  =   "Backspace"
+/****************************************************************************/
+
+
+/*** SELECTION ***/
+
+"$$SELECT: ADD BOOKMARK..."        =   "Neues Lesezeichen..."
+"$$SELECT: AUTOSCROLL FASTER"      =   "Auto B. schneller"
+"$$SELECT: AUTOSCROLL SLOWER"      =   "Auto B. langsamer"
+"$$SELECT: BOOKMARKS..."           =   "Lesezeichen..."
+"$$SELECT: BUTTON ACTION..."       =   "Tasten-Aktionen..."
+"$$SELECT: DETAILS..."             =   "Details..."
+"$$SELECT: FIND AGAIN"             =   "Weitersuchen"
+"$$SELECT: FIND..."                =   "Suchen..."
+"$$SELECT: FULL PAGE DOWN"         =   "1 Seite weiter"
+"$$SELECT: FULL PAGE UP"           =   "1 Seite zurück" 
+"$$SELECT: GESTURE ACTION..."      =   "Graffiti-Aktionen..."
+"$$SELECT: GO BACK"                =   "Zurück" 
+"$$SELECT: GO FORWARD"             =   "Weiter" 
+"$$SELECT: GO HOME"                =   "Startseite"
+"$$SELECT: GO TO BOTTOM"           =   "Seitenende"
+"$$SELECT: GO TO TOP"              =   "Seitenanfang"
+"$$SELECT: HALF PAGE DOWN"         =   "½ Seite weiter" 
+"$$SELECT: HALF PAGE UP"           =   "½ Seite zurück" 
+"$$SELECT: LIBRARY..."             =   "Dokumente..."
+"$$SELECT: NONE"                   =   "Keine"
+"$$SELECT: PREFERENCES..."         =   "Einstellungen..."
+"$$SELECT: TAP ACTION..."          =   "Tap-Aktionen..."
+"$$SELECT: TOGGLE AUTOSCROLL"      =   "Auto-Bildlauf An/Aus"
+/****************************************************/
+"$$SELECT: COPY TO MEMO"           =   "Export to Memo"
+"$$SELECT: NEXT ANCHOR"            =   "Next anchor"
+"$$SELECT: PREV ANCHOR"            =   "Prev anchor"
+"$$SELECT: GO TO LINK"             =   "Go to link"
+"$$SELECT: SELECT FONT..."         =   "Font and layout..."
+"$$SELECT: DELETE DOC..."          =   "Delete Doc..."
+"$$SELECT: COMMAND STROKE"         =   "Command stroke"
+"$$SELECT: MENU..."                =   "Menu..."
+"$$SELECT: TOGGLE TOOLBAR"         =   "Toggle toolbar"
+"$$SELECT: TOGGLE FULLSCREEN"      =   "Toggle fullscreen"
+"$$SELECT: ONE LINE UP"            =   "One line up"
+"$$SELECT: ONE LINE DOWN"          =   "One line down"
+"$$SELECT: ADJUST BRIGHTNESS"      =   "Brightness..."
+"$$SELECT: ADJUST CONTRAST"        =   "Contrast..."
+"$$SELECT: TOGGLE BACKLIGHT"       =   "Toggle backlight"
+"$$SELECT: ROTATE RIGHT"           =   "Rotate right"
+"$$SELECT: ROTATE LEFT"            =   "Rotate left"
+"$$SELECT: SAVE POSITION"          =   "Save position"
+"$$SELECT: LOOKUP WORD"            =   "Lookup word"
+"$$UNSUPPORTED"                    =   "Unsupported action"
+/****************************************************/
+
+
+/*** DETAILS ***/
+
+"$$DETAILS: CANCEL"                 =   "Abbruch"
+"$$DETAILS: COPY URL"               =   "URL kopieren"
+"$$DETAILS: OK"                     =   "OK"
+"$$DETAILS: READ"                   =   "Gelesen"
+"$$DETAILS: SHOW IMAGES"            =   "Bilder anzeigen"
+"$$DETAILS: STATUS:"                =   "Status:"
+"$$DETAILS: TITLE"                  =   "Details"
+"$$DETAILS: UNREAD"                 =   "Ungelesen"
+"$$DETAILS: URL:"                   =   "URL:"
+"$$DETAILS: HELP"                   =
+    "• Der 'Status' Eines Dokuments kann geändert werden, so daß der Link als ungelesen "\
+    "angezeigt wird."\
+    "\n\n"\
+    "• Durch ausschalten der Bilder werden keine Bilder mehr in der Seite angezeigt."\
+    "\n\n"\
+    "• Durch antippen der 'URL kopieren' Schaltfläche wird die angezeigte URL in ein "\
+    "Memo der Merkzettel Anwendung geschrieben. Die URL kann nur angezeigt werden wenn "\
+    "sie bei Erstellung des Dokumentes mit aufgenommen wurde."
+
+
+/*** SEARCH ***/
+
+"$$FIND: CANCEL"                    =   "Abbruch"
+"$$FIND: CASE SENSITIVE"            =   "GROSS/klein beachten" 
+"$$FIND: FIND:"                     =   "Suchen:"
+"$$FIND: IN ALL PAGES"              =   "Alle Seiten"
+"$$FIND: IN PAGE"                   =   "Diese Seite"
+"$$FIND: OK"                        =   "OK"
+"$$FIND: TITLE"                     =   "Plucker Suche"
+/*************************************************************/
+"$$FIND: DOWN IN DOC"               =   "down in doc"
+"$$FIND: SUB PAGES"                 =   "sub pages"
+"$$FIND: PHRASE"                    =   "Phrase"
+"$$FIND: NO TRANSLITERATION"        =   "No transliteration"
+"$$FIND: NON-ASCII TO PERIOD"       =   "Non-ASCII to period"
+"$$FIND: DROP LATIN 1 ACCENTS"      =   "Drop Latin 1 accents"
+"$$FIND: HELP"                      =
+    "• Tapping on the icon to the right of the search field "\
+    "gives you a list of recent search strings to choose from."\
+    "\n\n"\
+    "• You can search the current page, the whole document, the whole "\
+    "document down from the current position, or subpages (breadth-first "\
+    "spidering)."\
+    "\n\n"\
+    "• You can make your search case insensitive if applicable to your language."\
+    "\n\n"\
+    "• In a phrase search you must have an "\
+    "exact match for everything in the search string, including spaces."\
+    "\n\n"\
+    "• If you turn off phrase search, each space-separated string "\
+    "must be found within the same paragraph.  Thus if you "\
+    "put in the search string 'Big bad wolf' (without the quotation marks), "\
+    "then you will find all paragraphs that contain the strings 'Big', 'bad' "\
+    "and 'wolf' somewhere in them, "\
+    "though not necessarily as whole words and not necessarily in this order. "\
+    "\n\n"\
+    "• Only the first term will be highlighted in the text when you view the "\
+    "results."\
+    "\n\n"\
+    "• With phrase search disabled, if you have more than ten search terms, "\
+    "the extra ones will be ignored."\
+    "\n\n"\
+    "• For fastest searching, put the least common term as the first one "\
+    "if phrase search is disabled."\
+    "\n\n"\
+    "• You can choose to transliterate the text and search string before "\
+    "searching.  For instance, you can choose to change all non-ASCII "\
+    "characters (such as 'ü') to periods.  Or you can choose to drop "\
+    "accents on all Latin 1 characters, so that, for instance, a 'u-umlaut' "\
+    "gets changed to a 'u'.  This also changes other non-ASCII characters "\
+    "such as fancy quotation marks to their closest ASCII equivalent.  Since "\
+    "your search string is also transliterated before searching, this is basically "\
+    "an accent-insensitive search."
+/*************************************************************/
+
+
+/*** SEARCH RESULT ***/
+
+"$$RESULT: CANCEL"                  =   "Abbruch"
+"$$RESULT: FINDMORE"                =   "Weitersuchen"
+"$$RESULT: MATCHES"                 =   "Treffer für"
+"$$RESULT: NOMATCHES"               =   "Keine Treffer für"
+"$$RESULT: SEARCHING..."            =   "Suche..."
+"$$RESULT: STOP"                    =   "Stop"
+"$$RESULT: TITLE"                   =   "Plucker Suche"
+
+
+/*** EMAIL ***/
+
+"$$EMAIL: CANCEL"                   =   "Abbruch"
+"$$EMAIL: CC:"                      =   "Cc:"
+"$$EMAIL: SEND"                     =   "Abschicken"
+"$$EMAIL: SUBJECT:"                 =   "Btr.:"
+"$$EMAIL: TITLE"                    =   "Plucker e-Mail"
+"$$EMAIL: TO:"                      =   "An:"
+
+
+/*** ADD BOOKMARK ***/
+
+"$$ADD BOOKMARK: ADD"               =   "Neu"
+"$$ADD BOOKMARK: CANCEL"            =   "Abbruch"
+"$$ADD BOOKMARK: NAME:"             =   "Name:"
+"$$ADD BOOKMARK: TITLE"             =   "Neues Lesezeichen"
+
+
+/*** BOOKMARK ***/
+
+"$$BOOKMARKS: DELETE"               =   "Löschen"
+"$$BOOKMARKS: DONE"                 =   "Fertig"
+"$$BOOKMARKS: GO TO"                =   "Gehe zu"
+"$$BOOKMARKS: TITLE"                =   "Lesezeichen"
+
+
+/*** EXTERNAL LINKS ***/
+
+"$$EXTERN: BACK"                    =   "Zurück"
+"$$EXTERN: COPY URL"                =   "URL kopieren"
+"$$EXTERN: LABEL1"                  =   "Diese Seite befindet sich nicht"
+"$$EXTERN: LABEL2"                  =   "in diesem Dokument."
+"$$EXTERN: LABEL3"                  =   "Möglicherweise ist es eine externe"
+"$$EXTERN: LABEL4"                  =   "Seite oder sie wurde Aufgrund der"
+"$$EXTERN: LABEL5"                  =   "eingestellten Linktiefe nicht in"
+"$$EXTERN: LABEL6"                  =   "das Dokument aufgenommen."
+"$$EXTERN: NO URL"                  =   "Keine URL Information verfügbar."
+"$$EXTERN: TITLE"                   =   "Externer Link"
+"$$EXTERN: URL:"                    =   "URL:"
+/********************************************************************/
+"$$EXTERN: BROWSE ONLINE"           =   "Go online"
+/********************************************************************/
+
+
+/*** CATEGORY ***/
+
+"$$CATEGORY: ALL"                   =   "Alle"
+"$$CATEGORY: AND"                   =   "UND"
+"$$CATEGORY: CANCEL"                =   "Abbruch"
+"$$CATEGORY: DELETE"                =   "Löschen"
+"$$CATEGORY: MULTIPLE SELECT"       =   "Mehrfachauswahl"
+"$$CATEGORY: NONE"                  =   "Keine"
+"$$CATEGORY: OK"                    =   "OK"
+"$$CATEGORY: OR"                    =   "ODER"
+"$$CATEGORY: RENAME"                =   "Umbenennen"
+"$$CATEGORY: TITLE"                 =   "Kategorien"
+"$$CATEGORY: UNFILED"               =   "Nicht abgelegt"
+"$$CATEGORY: HELP"                      =
+    "• Durch Antippen der Schaltfläche für die Kategorie schaltet Sie deren Anzeige ein "\
+    "oder aus."\
+    "\n\n"\
+    "• Das Einschalten der MEHRFACHSELEKTION erlaubt die gleichzeitige Anzeige meherer "\
+    "Kategorien."\
+    "\n\n"\
+    "• Zum Anlegen einer Kategorie wählen Sie eine leere Schaltfläche aus. Tippen Sie "\
+    "das Dokumentsymbol an um Zugriff auf zusätzliche Optionen zu erhalten"\
+    "\n\n"\
+    "• Das Löschen von Kategorien bewirkt, daß Datenbanken, die unter dieser Kategorie "\
+    "gespeichert waren unter 'Nicht Abgelegt' einsortiert werden."\
+    "\n\n"\
+    "• Um mehrere Kategorien zusammenzuführen geben Sie den Kategorien den selben Namen."
+
+
+/*** NEW CATEGORY ***/
+
+"$$EDIT CATEGORIES: CANCEL"         =   "Abbruch"
+"$$EDIT CATEGORIES: NAME:"          =   "Neuer Kategoriename:"
+"$$EDIT CATEGORIES: OK"             =   "OK"
+"$$EDIT CATEGORIES: TITLE"          =   "Kategorien bearbeiten"
+
+
+/*** INITIALIZING CATEGORY ***/
+
+"$$INITDOC: SYNCHRONIZING"          =   "Syncronisiere Datenbanken"
+/*************************************************************/
+"$$INITDOC: OPEN DOC LIST"          =   "Opening document list"
+/*************************************************************/
+
+
+/*** SORT DOCUMENTS ***/
+
+"$$SORTDOC: SORTING..."             =   "Sortiere..."
+
+
+/*** HARDCOPY ***/
+
+/****************************************************************************/
+"$$HARDCOPY: TITLE"                 =   "Export to Memo"
+"$$HARDCOPY: CANCEL"                =   "Cancel"
+"$$HARDCOPY: EXPORT"                =   "Export"
+/****************************************************************************/
+
+
+/*** EXPORT LINK TO MEMO ***/
+
+/*************************************************************/
+"$$EXPORT: EXPORTING LINK..."       =   "Exporting link..."
+/*************************************************************/
+
+
+/*************************************************************
+ *                         ALERTS                            *
+ *************************************************************/
+
+/*** COMMON STRINGS ***/
+
+"$$CANCEL"                  =   "Abbruch"
+"$$DELETE"                  =   "Löschen"
+/*************************************************************/
+"$$LEAVE"                   =   "Leave"
+/*************************************************************/
+"$$NO"                      =   "Nein"
+"$$OK"                      =   "OK"
+"$$YES"                     =   "Ja"
+"$$EXIT"                    =   "Beenden"
+/*************************************************************/
+"$$NEXT"                    =   "Next page"
+"$$RESTART"                 =   "Restart"
+/*************************************************************/
+
+
+/*** INFORMATION ***/
+
+"$$SYSTEM INCOMPATIBLE"     =   "Systeminkompatibilität!"
+"$$SYSTEM MSG"              =   "Plucker benötigt PalmOS 2.0 oder höher. Für ältere Versionen konsultieren "\
+                                "Sie bitte die Dokumentation und fragen ggf. bei den Entwicklern nach."
+
+"$$HIGH BITDEPTH"           =   "Kann Bild nicht angezeigen!"
+"$$HIGH BITDEPTH MSG"       =   "Die Farbtiefe ist zu hoch für dieses Gerät."
+
+"$$EMPTY PATTERNS"          =   "Keine Suchmuster!"
+"$$EMPTY PATTERNS MSG"      =   "Es sind keine alten Suchmuster vorhanden."
+
+"$$NO BEAM SUPPORT"         =   "Übertragen nicht unterstützt!"
+"$$NO BEAM SUPPORT MSG"     =   "Dieses Gerät unterstützt nicht die "\
+                                "Datenübertragung mit Hilfe der Infrarot "\
+                                "Schnittstelle."
+
+"$$COPY PROTECTED"          =   "Kein Übertragen möglich!"
+"$$COPY PROTECTED MSG"      =   "Kopiergeschützte Dokumente können nicht übertragen werden."
+
+
+/*** CONFIRMATION ***/
+
+"$$CONFIRM DELETE"          =   "Bestätigung für löschen"
+"$$DELETE MSG"              =   "Soll ^1 permanent gelöscht werden?"
+
+"$$MERGE CATEGORY"          =   "Kategorien gruppieren"
+"$$MERGE CATEGORY MSG"      =   "Die Kategorie wurde in eine bereits vorhandene Kategorie umbenannt. "\
+                                "Diese Kategorien werden gruppiert. Fortfahren?"
+
+/*************************************************************/
+"$$END OF PAGE MSG"          =  "End of page reached.  Search next page or restart from "\
+                                "beginning of search?"
+
+"$$END OF DOC MSG"          =   "End of document reached.  Restart from beginning of search?"
+/*************************************************************/
+
+/*************************************************************/
+"$$CONFIRM DELETE METADOC"  =   "Confirm delete metadoc"
+"$$DELETE METADOC MSG"      =   "Delete meta document of ^1 as well?"
+/*************************************************************/
+
+"$$CONFIRM DELETE ALL"      =   "Bestätigung für alle löschen"
+"$$DELETE ALL MSG"          =   "Alle angezeigten Dokumente permanent löschen?"
+
+/*************************************************************/
+"$$CONFIRM DELETE READ"     =   "Confirm delete read"
+"$$DELETE READ MSG"         =   "Delete read documents for selected "\
+                                "category/categories?"
+/*************************************************************/
+
+
+/*** WARNING ***/
+
+"$$BROKEN DOCUMENT"         =   "Dokument defekt!"
+"$$BROKEN MSG"              =   "In dem Dokument ^1 fehlen wichtige Einträge."\
+                                "\nBitte syncronisieren Sie ein neues Dokument."
+
+"$$INSUFFICIENT MEMORY"     =   "Zuwenig Speicher!"
+"$$INSUFFICIENT MSG"        =   "Zuwenig Speicher um die gewählte Seite zu dekomprimieren. Bitte RAM freigeben!"
+
+"$$LOW MEMORY"              =   "Zu wenig Speicher!"
+"$$EMAIL MEMORY MSG"        =   "Es steht nicht genug Speicher zum erstellen einer e-Mail zur verfügung. "\
+                                "Bitte Speicher freigeben oder die Nachricht sehr kurz halten."
+"$$IMAGE MEMORY MSG"        =   "Nicht genug freier Speicher um dieses Bild darzustellen."
+    
+"$$NO TOADDR"               =   "Kein Empfänger!"
+"$$NO TOADDR MSG"           =   "Es muß ein Empfänger im An:-Feld angegeben werden."
+
+"$$ZLIB NOT SUPPORTED"      =   "ZLib nicht unterstützt!"
+"$$ZLIB MSG"                =   "Dieses Gerät unterstützt keine ZLib komprimierten Dokumente."
+
+"$$IMAGE COMPRESSION"       =   "Kompression nicht unterstützt!"
+"$$COMPRESSION MSG"         =   "Dieses Gerät unterstützt leider nicht die Palm OS Bild Kompression. "\
+                                "Die Anzeige von Bildern wird für dieses Dokument abgeschaltet."
+
+"$$AUTOSCROLL STAY ON"     =   "Auto-Aus deaktivieren!"
+"$$STAY ON MSG"            =   "Mit dem wählen dieser Option verhindern Sie das sich " \
+                               "das Gerät automatisch ausschaltet während der Auto-Bildlauf " \
+                               "in Betrieb ist. Das Gerät bleibt solange an bis Sie den " \
+                               "Auto-Bildlauf stoppen."
+
+/*************************************************************/
+"$$INVALID OWNER"           =   "Invalid document owner!"
+"$$INVALID OWNER MSG"       =   "Your device's user name does not match that "\
+                                "registered for the owner of '^1'.  The "\
+                                "document cannot be opened except under that "\
+                                "name."
+
+"$$MANUAL SYNC"             =   "Update of document list"
+"$$MANUAL SYNC MSG"         =   "This option prevents the viewer from "\
+                                "automatically updating the document list. "\
+                                "Use the menu option 'Update document list' "\
+                                "in the document library to manually update "\
+                                "the list."
+/*************************************************************/
+
+
+/*** ERROR ***/
+
+"$$NO CATEGORY"             =   "Keine Kategorie gewählt!"
+"$$NO CATEGORY MSG"         =   "Es muss ministens eine Kategorie gewählt werden."
+
+"$$CATEGORY NAME"           =   "Kategoriename!"
+"$$CATEGORY NAME MSG"       =   "Die Kategorie ^1 besteht bereits. Bitte verwenden Sie einen anderen Namen."
+
+"$$CANNOT DELETE"           =   "Löschen nicht möglich!"
+"$$CANNOT DELETE MSG"       =   "Das ausgewählte Dokument kann nicht gelöscht werden!"
+
+"$$BAD MAILTO"              =   "Mailto Fehler!"
+"$$BAD MAILTO MSG"          =   "Dieses Feld ist nicht ok. Die e-mail- "\
+                                "Addresse wurde nicht gefunden!\n\n"\
+                                "Bitte informieren sie das "\
+                                "Plucker Entwicklungsteam."
+
+"$$ALREADY EXISTS"          =   "Es existiert bereits ein Dokument ^1"
+
+"$$READ ONLY"               =   "Schreibgeschütztes Dokument!"
+"$$READ ONLY MSG"           =   "Das Dokument kann nicht umbenannt werden da es Schreibgeschützt ist."
+
+"$$UNKNOWN TYPE"            =   "Unbekanntes Format!"
+"$$UNKNOWN TYPE MSG"        =   "Das Format dieses Dokuments ist unbekannt."
+
+"$$CANNOT DELETE ALL"       =   "Alle löschen nicht möglich!"
+"$$CANNOT DELETE ALL MSG"   =   "Fehler beim löschen aller Dokumente."
+
+/*************************************************************/
+"$$CANNOT DELETE READ"      =   "Cannot delete read"
+"$$CANNOT DELETE READ MSG"  =   "Cannot delete read documents!"
+
+"$$CANNOT RENAME DOC"       =   "Cannot rename document!"
+
+"$$CANNOT FIND DOC"         =   "Cannot find document"
+"$$CANNOT FIND DOC MSG"     =   "Cannot find document in RAM or on external card!"
+
+"$$UNHANDLED EXCEPTION"     =   "Unhandled exception"
+"$$UNHANDLED EXCEPTION MSG" =   "Unhandled exception, error code = ^1"
+
+"$$CANNOT ADD BOOKMARK"     =   "Cannot add bookmark"
+"$$CANNOT ADD BOOKMARK MSG" =   "Failed to add '^1'"
+
+"$$CANNOT DELETE BOOKMARK"     =   "Cannot delete bookmark"
+"$$CANNOT DELETE BOOKMARK MSG" =   "Failed to delete '^1'"
+"$$IMAGE ERROR"             =   "Image error"
+"$$IMAGE ERROR MSG"         =   "There is a problem displaying the image. "\
+                                "Perhaps Plucker is running out of memory."
+/*************************************************************/
+
+END
+

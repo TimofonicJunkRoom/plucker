@@ -1,0 +1,105 @@
+						-*- text -*-
+
+This file describes how to generate a plucker database to install on
+your palm.
+
+
+
+THE Spider.py SCRIPT
+====================
+
+The installation process should have installed the Spider.py somewhere
+in the PyPlucker subdirectory of the python library.  On my system
+it is found as
+  /usr/lib/python1.5/site-packages/PyPlucker/Spider.py
+
+Some distributions (e.g. from a debian package or my RPMs) will also
+install this script as plucker-build in /usr/bin.  If it is not there,
+you may want to put a symbolic link from the Spider.py to that.
+
+
+SETUP TO PLUCKER THE WEB
+========================
+
+For each database you will have to set one plucker directory.  Into
+that directory you should copy the system files: home.html,
+external.html, and mailto.html.
+
+Examples of these files are found in this directory.
+
+
+Next, edit home.html and change it to include the links to sites you
+want to read.
+
+
+
+CALLING Spider.py
+=================
+
+Call the script to build the database:
+
+  python /path/to/script/Spider.py -p <the plucker directory> -f <database name>
+
+On my system this would be for example:
+
+  python /usr/lib/python1.5/site-packages/PyPlucker/Spider.py -p $HOME/.plucker/News/ -f TheNews
+
+This will create a database TheNews.pdb in $HOME/.plucker/News/ that can
+then be installed on the palm.
+
+
+Spider.py has more options.  Call it with just a '-h' to learn about
+them.
+
+Of the others, -H <url> is the most useful.  Use that, if the root page
+should not be the home.html im the plucker directory but a page
+somewhere (even on a different server).
+You could e.g. say
+  python /path/to/script/Spider.py -p $HOME/tmp/plucker -f Plucker -H http://plucker.gnu-designs.com/
+and get the home page (plus the directly referenced pages) 
+of Plucker.
+
+
+
+WHAT TO PUT IN tHE HOME.HTML?
+=============================
+
+You can put anything in it that resembles at least a bit valid HTML.
+The expample in this directory has the full declaration etc. to make
+it legal XHTML.  This is not really needed but does not hurt and helps
+your editor to verify you code (if your editor is smart enough, that
+is).
+
+In addition to normal HTML the <a> tag accepts the following new
+attributes:
+
+  MAXDEPTH="n":  Fetch to a maximum depth of n.  Defaults to 1.
+
+  NOIMAGES:  No images will be fetched below this.  Defaults to
+             loading images.
+
+  STAYONHOST:  Fetch only pages below this, that are on the same site
+               as the page pointed to.
+
+  STAYBELOW="text": Fetch only pages below this, whose URL's start
+                    with 'text'.
+                    If you ommit the '="text', it will default to the
+                    URL this tag points to (i.e. the contents of the
+                    href attribute).
+
+
+
+EXCLUDING THINGS
+================
+
+Sometimes, the STAYONHOST and STAYBELOW attributes do not give enough
+selection ability to include only those things that you want included.
+
+Spider.py looks for so called 'exclusion lists' in form of text
+files.  It first loads the file $HOME/.plucker/exclusionlist.txt if it
+exists and then loads exclusionlist.txt in the directory you specified
+with the -p flag (again, only if it exists).
+
+The exclusionlist.txt files should be in a specific format, that is
+explained in the example file in this directory.  Read that for more
+about this feature,

@@ -1,0 +1,774 @@
+#
+# $Id: ucomics.com.list,v 1.4 2004/03/12 16:41:54 chrish Exp $
+# urls updated on 2004/03/12 by Ducem Barr
+#
+# Comics from www.ucomics.com
+#
+
+comic_list.append({
+	'name': 'adamathome',
+	'page': 'http://www.ucomics.com/adamathome/index.phtml',
+	'expr': "images.ucomics.com/comics/ad/\d+/ad\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Adam@Home'})
+
+comic_list.append({
+	'name': 'animalcrackers',
+	'page': 'http://www.ucomics.com/animalcrackers/index.phtml',
+	'expr': "images.ucomics.com/comics/tmani/\d+/tmani\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Animal Crackers'})
+
+comic_list.append({
+	'name': 'laloalcaraz',
+	'page': 'http://www.ucomics.com/laloalcaraz/index.phtml',
+	'expr': "images.ucomics.com/comics/la/\d+/la\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Lalo Alcaraz'})
+
+comic_list.append({
+	'name': 'annie',
+	'page': 'http://www.ucomics.com/annie/index.phtml',
+	'expr': "images.ucomics.com/comics/tmann/\d+/tmann\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Annie'})
+
+comic_list.append({
+	'name': 'baldo',
+	'page': 'http://www.ucomics.com/baldo/index.phtml',
+	'expr': "images.ucomics.com/comics/ba/\d+/ba\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Baldo'})
+
+comic_list.append({
+	'name': 'baldoespanol',
+	'page': 'http://www.ucomics.com/baldoespanol/index.phtml',
+	'expr': "images.ucomics.com/comics/be/\d+/be\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Baldo en Espanol'})
+
+comic_list.append({
+	'name': 'thebigpicture',
+	'page': 'http://www.ucomics.com/thebigpicture/index.phtml',
+	'expr': "images.ucomics.com/comics/bi/\d+/bi\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'The Big Picture'})
+
+comic_list.append({
+	'name': 'bigtop',
+	'page': 'http://www.ucomics.com/bigtop/index.phtml',
+	'expr': "images.ucomics.com/comics/bt/\d+/bt\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Big Top'})
+
+comic_list.append({
+	'name': 'bizarro',
+	'page': 'http://www.ucomics.com/bizarro/index.phtml',
+	'expr': "images.ucomics.com/comics/bz/\d+/bz\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Bizarro'})
+
+comic_list.append({
+	'name': 'boondocks',
+	'page': 'http://www.ucomics.com/boondocks/index.phtml',
+	'expr': "images.ucomics.com/comics/bo/\d+/bo\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'The Boondocks'})
+
+comic_list.append({
+	'name': 'bornlucky',
+	'page': 'http://www.ucomics.com/bornlucky/index.phtml',
+	'expr': "images.ucomics.com/comics/bol/\d+/bol\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Born Lucky'})
+
+comic_list.append({
+	'name': 'bottomliners',
+	'page': 'http://www.ucomics.com/bottomliners/index.phtml',
+	'expr': "images.ucomics.com/comics/tmbot/\d+/tmbot\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Bottom Liners'})
+
+comic_list.append({
+	'name': 'boundandgagged',
+	'page': 'http://www.ucomics.com/boundandgagged/index.phtml',
+	'expr': "images.ucomics.com/comics/tmbou/\d+/tmbou\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Bound and Gagged'})
+
+comic_list.append({
+	'name': 'brendastarr',
+	'page': 'http://www.ucomics.com/brendastarr/index.phtml',
+	'expr': "images.ucomics.com/comics/tmbre/\d+/tmbre\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Brenda Starr'})
+
+comic_list.append({
+	'name': 'broomhilda',
+	'page': 'http://www.ucomics.com/broomhilda/index.phtml',
+	'expr': "images.ucomics.com/comics/tmbro/\d+/tmbro\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Broom Hilda'})
+
+comic_list.append({
+	'name': 'calvinandhobbes',
+	'page': 'http://www.ucomics.com/calvinandhobbes/index.phtml',
+	'expr': "images.ucomics.com/comics/ch/\d+/ch\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Calvin and Hobbes'})
+
+comic_list.append({
+	'name': 'captainribman',
+	'page': 'http://www.ucomics.com/captainribman/index.phtml',
+	'expr': "images.ucomics.com/comics/tmcap/\d+/tmcap\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Captain RibMan'})
+
+comic_list.append({
+	'name': 'cathy',
+	'page': 'http://www.ucomics.com/cathy/index.phtml',
+	'expr': "images.ucomics.com/comics/ca/\d+/ca\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Cathy'})
+
+comic_list.append({
+	'name': 'catswithhands',
+	'page': 'http://www.ucomics.com/catswithhands/index.phtml',
+	'expr': "images.ucomics.com/comics/tmcat/\d+/tmcat\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Cats With Hands'})
+
+comic_list.append({
+	'name': 'cleats',
+	'page': 'http://www.ucomics.com/cleats/index.phtml',
+	'expr': "images.ucomics.com/comics/cle/\d+/cle\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Cleats'})
+
+comic_list.append({
+	'name': 'citizendog',
+	'page': 'http://www.ucomics.com/citizendog/index.phtml',
+	'expr': "images.ucomics.com/comics/cd/\d+/cd\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Citizen Dog'})
+
+comic_list.append({
+	'name': 'closetohome',
+	'page': 'http://www.ucomics.com/closetohome/index.phtml',
+	'expr': "images.ucomics.com/comics/cl/\d+/cl\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Close to Home'})
+
+comic_list.append({
+	'name': 'compu-toon',
+	'page': 'http://www.ucomics.com/compu-toon/index.phtml',
+	'expr': "images.ucomics.com/comics/tmcom/\d+/tmcom\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Compu-toon'})
+
+comic_list.append({
+	'name': 'paulconrad',
+	'page': 'http://www.ucomics.com/paulconrad/index.phtml',
+	'expr': "images.ucomics.com/comics/tmpco/\d+/tmpco\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Paul Conrad'})
+
+comic_list.append({
+	'name': 'cornered',
+	'page': 'http://www.ucomics.com/cornered/index.phtml',
+	'expr': "images.ucomics.com/comics/co/\d+/co\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Cornered'})
+
+comic_list.append({
+	'name': 'crankshaft',
+	'page': 'http://www.ucomics.com/crankshaft/index.phtml',
+	'expr': "images.ucomics.com/comics/cs/\d+/cs\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Crankshaft'})
+
+comic_list.append({
+	'name': 'jeffdanziger',
+	'page': 'http://www.ucomics.com/jeffdanziger/index.phtml',
+	'expr': "images.ucomics.com/comics/jd/\d+/jd\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Jeff Danziger'})
+
+comic_list.append({
+	'name': 'mattdavies',
+	'page': 'http://www.ucomics.com/mattdavies/index.phtml',
+	'expr': "images.ucomics.com/comics/tmmda/\d+/tmmda\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Matt Davies'})
+
+comic_list.append({
+	'name': 'dicktracy',
+	'page': 'http://www.ucomics.com/dicktracy/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdic/\d+/tmdic\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Dick Tracy'})
+
+comic_list.append({
+	'name': 'doodles',
+	'page': 'http://www.ucomics.com/doodles/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdoo/\d+/tmdoo\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Doodles'})
+
+comic_list.append({
+	'name': 'doonesbury',
+	'page': 'http://www.ucomics.com/doonesbury/index.phtml',
+	'expr': "images.ucomics.com/comics/db/\d+/db\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Doonesbury'})
+
+comic_list.append({
+	'name': 'dunaginspeople',
+	'page': 'http://www.ucomics.com/dunaginspeople/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdun/\d+/tmdun\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Dunagins People'})
+
+comic_list.append({
+	'name': 'duplex',
+	'page': 'http://www.ucomics.com/duplex/index.phtml',
+	'expr': "images.ucomics.com/comics/dp/\d+/dp\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'The Duplex'})
+
+comic_list.append({
+	'name': 'thefifthwave',
+	'page': 'http://www.ucomics.com/thefifthwave/index.phtml',
+	'expr': "images.ucomics.com/comics/fw/\d+/fw\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'The 5th Wave'})
+
+comic_list.append({
+	'name': 'foxtrot',
+	'page': 'http://www.ucomics.com/foxtrot/index.phtml',
+	'expr': "images.ucomics.com/comics/ft/\d+/ft\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'FoxTrot'})
+
+comic_list.append({
+	'name': 'fredbasset',
+	'page': 'http://www.ucomics.com/fredbasset/index.phtml',
+	'expr': "images.ucomics.com/comics/tmfba/\d+/tmfba\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Fred Basset'})
+
+comic_list.append({
+	'name': 'thefuscobrothers',
+	'page': 'http://www.ucomics.com/thefuscobrothers/index.phtml',
+	'expr': "images.ucomics.com/comics/fu/\d+/fu\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'The Fusco Brothers'})
+
+comic_list.append({
+	'name': 'garfield',
+	'page': 'http://www.ucomics.com/garfield/index.phtml',
+	'expr': "images.ucomics.com/comics/ga/\d+/ga\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Garfield'})
+
+comic_list.append({
+	'name': 'gasolinealley',
+	'page': 'http://www.ucomics.com/gasolinealley/index.phtml',
+	'expr': "images.ucomics.com/comics/tmgas/\d+/tmgas\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Gasoline Alley'})
+
+comic_list.append({
+	'name': 'gilthorp',
+	'page': 'http://www.ucomics.com/gilthorp/index.phtml',
+	'expr': "images.ucomics.com/comics/tmgil/\d+/tmgil\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Gil Thorp'})
+
+comic_list.append({
+	'name': 'walthandelsman',
+	'page': 'http://www.ucomics.com/walthandelsman/index.phtml',
+	'expr': "images.ucomics.com/comics/tmwha/\d+/tmwha\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Walt Handelsman'})
+
+comic_list.append({
+	'name': 'heartofthecity',
+	'page': 'http://www.ucomics.com/heartofthecity/index.phtml',
+	'expr': "images.ucomics.com/comics/hc/\d+/hc\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Heart of the City'})
+
+comic_list.append({
+	'name': 'helen',
+	'page': 'http://www.ucomics.com/helen/index.phtml',
+	'expr': "images.ucomics.com/comics/tmhel/\d+/tmhel\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Helen, Sweetheart of the Internet'})
+
+comic_list.append({
+	'name': 'davidhorsey',
+	'page': 'http://www.ucomics.com/davidhorsey/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdho/\d+/tmdho\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'David Horsey'})
+
+comic_list.append({
+	'name': 'inthebleachers',
+	'page': 'http://www.ucomics.com/inthebleachers/index.phtml',
+	'expr': "images.ucomics.com/comics/bl/\d+/bl\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'In the Bleachers'})
+
+comic_list.append({
+	'name': 'james',
+	'page': 'http://www.ucomics.com/james/index.phtml',
+	'expr': "images.ucomics.com/comics/jm/\d+/jm\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'James'})
+
+comic_list.append({
+	'name': 'kudzu',
+	'page': 'http://www.ucomics.com/kudzu/index.phtml',
+	'expr': "images.ucomics.com/comics/tmkud/\d+/tmkud\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Kudzu'})
+
+comic_list.append({
+	'name': 'dicklocher',
+	'page': 'http://www.ucomics.com/dickocher/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdlo/\d+/tmdlo\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Dick Locher'})
+
+comic_list.append({
+	'name': 'lola',
+	'page': 'http://www.ucomics.com/lola/index.phtml',
+	'expr': "images.ucomics.com/comics/tmlol/\d+/tmlol\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Lola'})
+
+comic_list.append({
+	'name': 'looseparts',
+	'page': 'http://www.ucomics.com/looseparts/index.phtml',
+	'expr': "images.ucomics.com/comics/tmloo/\d+/tmloo\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Loose Parts'})
+
+comic_list.append({
+	'name': 'chanlowe',
+	'page': 'http://www.ucomics.com/chanlowe/index.phtml',
+	'expr': "images.ucomics.com/comics/tmclo/\d+/tmclo\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Chan Lowe'})
+
+comic_list.append({
+	'name': 'dougmarlette',
+	'page': 'http://www.ucomics.com/dougmarlette/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdma/\d+/tmdma\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Doug Marlette'})
+
+comic_list.append({
+	'name': 'meehanstreak',
+	'page': 'http://www.ucomics.com/meehanstreak/index.phtml',
+	'expr': "images.ucomics.com/comics/tmmee/\d+/tmmee\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Meehan Streak'})
+
+comic_list.append({
+	'name': 'themiddletons',
+	'page': 'http://www.ucomics.com/themiddletons/index.phtml',
+	'expr': "images.ucomics.com/comics/tmmid/\d+/tmmid\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'The Middletons'})
+
+comic_list.append({
+	'name': 'misterboffo',
+	'page': 'http://www.ucomics.com/misterboffo/index.phtml',
+	'expr': "images.ucomics.com/comics/mb/\d+/mb\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Mister Boffo'})
+
+comic_list.append({
+	'name': 'mixedmedia',
+	'page': 'http://www.ucomics.com/mixedmedia/index.phtml',
+	'expr': "images.ucomics.com/comics/tmmix/\d+/tmmix\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Mixed Media'})
+
+comic_list.append({
+	'name': 'monkeyhouse',
+	'page': 'http://www.ucomics.com/monkeyhouse/index.phtml',
+	'expr': "images.ucomics.com/comics/tmmon/\d+/tmmon\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Monkeyhouse'})
+
+comic_list.append({
+	'name': 'mrpotatohead',
+	'page': 'http://www.ucomics.com/mrpotatohead/index.phtml',
+	'expr': "images.ucomics.com/comics/mrp/\d+/mrp\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Mr. Potato Head'})
+
+comic_list.append({
+	'name': 'psmueller',
+	'page': 'http://www.ucomics.com/psmueller/index.phtml',
+	'expr': "images.ucomics.com/comics/psm/\d+/psm\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'P.S. Mueller'})
+
+comic_list.append({
+	'name': '9to5',
+	'page': 'http://www.ucomics.com/9to5/index.phtml',
+	'expr': "images.ucomics.com/comics/tmntf/\d+/tmntf\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': '9 to 5'})
+
+comic_list.append({
+	'name': 'nonsequitur',
+	'page': 'http://www.ucomics.com/nonsequitur/index.phtml',
+	'expr': "images.ucomics.com/comics/nq/\d+/nq\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Non Sequitur'})
+
+comic_list.append({
+	'name': 'jackohman',
+	'page': 'http://www.ucomics.com/jackohman/index.phtml',
+	'expr': "images.ucomics.com/comics/tmjoh/\d+/tmjoh\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Jack Ohman'})
+
+comic_list.append({
+	'name': 'overboard',
+	'page': 'http://www.ucomics.com/overboard/index.phtml',
+	'expr': "images.ucomics.com/comics/ob/\d+/ob\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Overboard'})
+
+comic_list.append({
+	'name': 'oddlyenough',
+	'page': 'http://www.ucomics.com/oddlyenough/index.phtml',
+	'expr': "images.ucomics.com/comics/oe/\d+/oe\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Oddly Enough'})
+
+comic_list.append({
+	'name': 'mikepeters',
+	'page': 'http://www.ucomics.com/mikepeters/index.phtml',
+	'expr': "images.ucomics.com/comics/tmmpe/\d+/tmmpe\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Mike Peters'})
+
+comic_list.append({
+	'name': 'pluggers',
+	'page': 'http://www.ucomics.com/pluggers/index.phtml',
+	'expr': "images.ucomics.com/comics/tmplu/\d+/tmplu\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Pluggers'})
+
+comic_list.append({
+	'name': 'preteena',
+	'page': 'http://www.ucomics.com/preteena/index.phtml',
+	'expr': "images.ucomics.com/comics/pr/\d+/pr\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Preteena'})
+
+comic_list.append({
+	'name': 'thequigmans',
+	'page': 'http://www.ucomics.com/thequigmans/index.phtml',
+	'expr': "images.ucomics.com/comics/tmqui/\d+/tmqui\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'The Quigmans'})
+
+comic_list.append({
+	'name': 'reallifeadventures',
+	'page': 'http://www.ucomics.com/reallifeadventures/index.phtml',
+	'expr': "images.ucomics.com/comics/rl/\d+/rl\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Real Life Adventures'})
+
+comic_list.append({
+	'name': 'reynoldsunwrapped',
+	'page': 'http://www.ucomics.com/reynoldsunwrapped/index.phtml',
+	'expr': "images.ucomics.com/comics/rw/\d+/rw\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Reynolds Unwrapped'})
+
+comic_list.append({
+	'name': 'stevesack',
+	'page': 'http://www.ucomics.com/stevesack/index.phtml',
+	'expr': "images.ucomics.com/comics/tmssa/\d+/tmssa\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Steve Sack'})
+
+comic_list.append({
+	'name': 'drewsheneman',
+	'page': 'http://www.ucomics.com/drewsheneman/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdsh/\d+/tmdsh\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Drew Sheneman'})
+
+comic_list.append({
+	'name': 'shoe',
+	'page': 'http://www.ucomics.com/shoe/index.phtml',
+	'expr': "images.ucomics.com/comics/tmsho/\d+/tmsho\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Shoe'})
+
+comic_list.append({
+	'name': 'waynestayskal',
+	'page': 'http://www.ucomics.com/waynestayskal/index.phtml',
+	'expr': "images.ucomics.com/comics/tmwst/\d+/tmwst\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Wayne Stayskal'})
+
+comic_list.append({
+	'name': 'stonesoup',
+	'page': 'http://www.ucomics.com/stonesoup/index.phtml',
+	'expr': "images.ucomics.com/comics/ss/\d+/ss\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Stone Soup'})
+
+comic_list.append({
+	'name': 'danasummers',
+	'page': 'http://www.ucomics.com/danasummers/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdsu/\d+/tmdsu\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Dana Summers'})
+
+comic_list.append({
+	'name': 'sylvia',
+	'page': 'http://www.ucomics.com/sylvia/index.phtml',
+	'expr': "images.ucomics.com/comics/tmsyl/\d+/tmsyl\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Sylvia'})
+
+comic_list.append({
+	'name': 'tankmcnamara',
+	'page': 'http://www.ucomics.com/tankmcnamara/index.phtml',
+	'expr': "images.ucomics.com/comics/tm/\d+/tm\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Tank McNamara'})
+
+comic_list.append({
+	'name': 'anntelnaes',
+	'page': 'http://www.ucomics.com/anntelnaes/index.phtml',
+	'expr': "images.ucomics.com/comics/tmate/\d+/tmate\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Ann Telnaes'})
+
+comic_list.append({
+	'name': 'tomthedancingbug',
+	'page': 'http://www.ucomics.com/tomthedancingbug/index.phtml',
+	'expr': "images.ucomics.com/comics/td/\d+/td\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Tom the Dancing Bug'})
+
+comic_list.append({
+	'name': 'danwasserman',
+	'page': 'http://www.ucomics.com/danwasserman/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdwa/\d+/tmdwa\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Dan Wasserman'})
+
+comic_list.append({
+	'name': 'willynethel',
+	'page': 'http://www.ucomics.com/willynethel/index.phtml',
+	'expr': "images.ucomics.com/comics/wes/\d+/wes\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Willy \'N Ethel'})
+
+comic_list.append({
+	'name': 'dickwright',
+	'page': 'http://www.ucomics.com/dickwright/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdiw/\d+/tmdiw\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Dick Wright'})
+
+comic_list.append({
+	'name': 'donwright',
+	'page': 'http://www.ucomics.com/donwright/index.phtml',
+	'expr': "images.ucomics.com/comics/tmdow/\d+/tmdow\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Don Wright'})
+
+comic_list.append({
+	'name': 'ziggy',
+	'page': 'http://www.ucomics.com/ziggy/index.phtml',
+	'expr': "images.ucomics.com/comics/zi/\d+/zi\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Ziggy'})
+
+comic_list.append({
+	'name': 'tonyauth',
+	'page': 'http://www.ucomics.com/tonyauth/index.phtml',
+	'expr': "images.ucomics.com/comics/ta/\d+/ta\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Tony Auth'})
+
+comic_list.append({
+	'name': 'barbarabrandon',
+	'page': 'http://www.ucomics.com/barbarabrandon/index.phtml',
+	'expr': "images.ucomics.com/comics/bb/\d+/bb\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Where I\'m Coming From'})
+
+comic_list.append({
+	'name': 'stuartcarlson',
+	'page': 'http://www.ucomics.com/stuartcarlson/index.phtml',
+	'expr': "images.ucomics.com/comics/sc/\d+/sc\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Stuart Carlson'})
+
+comic_list.append({
+	'name': 'billdeore',
+	'page': 'http://www.ucomics.com/billdeore/index.phtml',
+	'expr': "images.ucomics.com/comics/bd/\d+/bd\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Bill DeOre'})
+
+comic_list.append({
+	'name': 'facesinthenews',
+	'page': 'http://www.ucomics.com/facesinthenews/index.phtml',
+	'expr': "images.ucomics.com/comics/kw/\d+/kw\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Faces in the News'})
+
+comic_list.append({
+	'name': 'glennmccoy',
+	'page': 'http://www.ucomics.com/glennmccoy/index.phtml',
+	'expr': "images.ucomics.com/comics/gm/\d+/gm\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Glenn McCoy'})
+
+comic_list.append({
+	'name': 'patoliphant',
+	'page': 'http://www.ucomics.com/patoliphant/index.phtml',
+	'expr': "images.ucomics.com/comics/oa/\d+/oa\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Pat Oliphant'})
+
+comic_list.append({
+	'name': 'joelpett',
+	'page': 'http://www.ucomics.com/joelpett/index.phtml',
+	'expr': "images.ucomics.com/comics/jp/\d+/jp\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Joel Pett'})
+
+comic_list.append({
+	'name': 'tedrall',
+	'page': 'http://www.ucomics.com/tedrall/index.phtml',
+	'expr': "images.ucomics.com/comics/tr/\d+/tr\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Ted Rall'})
+
+comic_list.append({
+	'name': 'bensargent',
+	'page': 'http://www.ucomics.com/bensargent/index.phtml',
+	'expr': "images.ucomics.com/comics/bs/\d+/bs\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Ben Sargent'})
+
+comic_list.append({
+	'name': 'tomtoles',
+	'page': 'http://www.ucomics.com/tomtoles/index.phtml',
+	'expr': "images.ucomics.com/comics/tt/\d+/tt\d+\.gif",
+	'suff': '.gif',
+	'base': 'http://',
+	'title': 'Tom Toles'})

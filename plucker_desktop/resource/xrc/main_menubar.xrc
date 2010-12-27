@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+
+<object class="wxMenuBar" name="main_menubar">
+    <style>wxMB_DOCKABLE</style>
+    <object class="wxMenu">
+        <label>_File</label>
+        <style>wxMENU_TEAROFF</style>
+        <object class="wxMenuItem" name="main_frame_add_channel_tool_or_menuitem">
+            <label>_Add a new channel...</label>
+            <help>Add a new channel</help>
+        </object>
+        <object class="wxMenuItem" name="main_frame_add_channel_wizard_tool_or_menuitem">
+            <label>Add a new channel using _wizard...</label>
+            <help>Add a new channel using the Add New Channel Wizard</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_configure_channel_tool_or_menuitem">
+            <label>_Configure selected channel...</label>
+            <help>Configure channel settings for the selected channel</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_delete_channels_tool_or_menuitem">
+            <label>_Delete selected channels</label>
+            <help>Delete the selected channels</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_exit_tool_or_menuitem">
+            <label>E_xit</label>
+            <help>Exit the application</help>
+        </object>
+        
+    </object> 
+    <object class="wxMenu">
+        <label>_Import/Export</label>
+        <style>wxMENU_TEAROFF</style>
+        <object class="wxMenuItem" name="main_frame_paste_url_as_new_channel_tool_or_menuitem">
+            <label>Paste _URL as new channel...</label>
+            <help>Paste a URL from the clipboard as a new channel</help>
+        </object>
+        <object class="wxMenuItem" name="main_frame_paste_fullnames_as_new_separate_channels_tool_or_menuitem">
+            <label>Paste files as _separate new channels...</label>
+            <help>Paste files from the clipboard using a new channel for each file</help>
+        </object>
+    </object>
+    <object class="wxMenu">
+        <label>_Update</label>
+        <style>wxMENU_TEAROFF</style>
+        <object class="wxMenuItem" name="main_frame_update_selected_tool_or_menuitem">
+            <label>Update _selected channels</label>
+            <help>Update the selected channels</help>
+        </object>
+        <object class="wxMenuItem" name="main_frame_update_due_tool_or_menuitem">
+            <label>Update all _due channels</label>
+            <help>Update all channels that are currently due</help>
+        </object>
+        <object class="wxMenuItem" name="main_frame_update_all_tool_or_menuitem">
+            <label>Update _all channels</label>
+            <help>Update all channels</help>
+        </object>
+    </object>
+    <object class="wxMenu">
+        <label>_Options</label>
+        <style>wxMENU_TEAROFF</style>
+        <object class="wxMenuItem" name="main_frame_preferences_tool_or_menuitem">
+            <label>_Preferences...</label>
+            <help>Set interface, autoupdate, proxy, spidering, and other behaviours</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_channel_defaults_tool_or_menuitem">
+            <label>Set _default configuration for new channels...</label>
+            <help>Change the default values used in newly created channels</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_install_software_tool_or_menuitem">
+            <label>_Install handheld viewer software...</label>
+            <help>Reinstall the viewer software and manual to the handheld</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_setup_wizard_tool_or_menuitem">
+            <label>Rerun _setup wizard...</label>
+            <help>Runs the first-start setup wizard to set up the proxy, etc</help>
+        </object>
+    </object>
+    <object class="wxMenu">
+        <label>_Help</label>
+        <style>wxMENU_TEAROFF</style>
+        <object class="wxMenuItem" name="main_frame_help_contents_tool_or_menuitem">
+            <label>_Help contents...</label>
+            <help>Display contents of the help</help>
+        </object>
+                <object class="wxMenuItem" name="main_frame_help_on_this_dialog_tool_or_menuitem">
+            <label>Help on using _this dialog...</label>
+            <help>Display help on how to use this main dialog</help>
+        </object>
+        <object class="wxMenuItem" name="main_frame_search_help_tool_or_menuitem">
+            <label>_Search help...</label>
+            <help>Search the help for a keyword</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_tip_of_the_day_tool_or_menuitem">
+            <label>_Tip of the day</label>
+            <help>Show a tip of the day</help>
+        </object>
+        <object class="separator"/>
+        <object class="wxMenuItem" name="main_frame_about_tool_or_menuitem">
+            <label>_About</label>
+            <help>Display version number and copyright notice</help>
+        </object>
+    </object>
+</object>  
+
+</resource>
